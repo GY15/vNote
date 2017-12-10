@@ -1,0 +1,291 @@
+
+.banner-holder {
+    background: #222;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-image-holder img {
+    width: 114%;
+    background-size: cover;
+    margin-top: -10%;
+    bottom: 0;
+    filter: brightness(60%);
+}
+
+.logo {
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    right: 10%;
+    width: 5%;
+
+    /*height: 500px;*/
+    bottom: 4%;
+    z-index: 10;
+    /*background: rgba(238, 233, 233, 0.4);*/
+}
+.down {
+    z-index: 4;
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    height: 7%;
+    width: 5%;
+
+    /*height: 500px;*/
+    bottom: 4%;
+    background: rgba(238, 233, 233, 1);
+}
+
+.part1 {
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    right: 10%;
+    width: 5%;
+
+    /*height: 500px;*/
+    bottom: 4%;
+    background: rgba(238, 233, 233, 0.4);
+}
+.part2 {
+    position: absolute;
+    top: 4%;
+    left: 9%;
+    width: 20%;
+    right: 10%;
+    bottom: 4%;
+    /*height: 500px;*/
+    background: rgba(238, 233, 233, 0.5);
+    z-index: 10;
+}
+.noteList{
+    overflow-y: auto;
+    /*position: absolute;*/
+    /*top: 55px;*/
+    /*bottom: 65px;*/
+    /*width: 100%;*/
+    overflow-x: hidden;
+    height: 594px;
+}
+.noteSummary{
+    background: rgba(238, 233, 233, 0.4);
+    padding-top: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    /*border:2px solid #31b0d5;*/
+    height: 22%;
+    margin-top: 2px;
+}
+
+.titleSummary{
+    font-size: 15px;
+    color: #3c763d;
+}
+.bookTitleSummary{
+    font-size: 15px;
+    color: #3c763d;
+}
+.timeSummary{
+    font-size: 10px;
+    color: #3c763d;
+}
+.contentSummary{
+    font-size: 13px;
+    color: #3c763d;
+    max-height:76px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    word-wrap:break-word
+}
+
+.part3 {
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    width: 68%;
+    right: 10%;
+    bottom: 4%;
+    /*height: 500px;*/
+    background: rgba(238, 233, 233, 0.6);
+    z-index: 120
+}
+
+
+
+.text-area{
+    margin: 5px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.banner-desc a {
+    display: inline-block;
+}
+.noteSummary:hover{
+    cursor: pointer;
+    background-color:rgba(92, 184, 92, 0.4);
+}
+
+.fh5co-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(	173 ,216 ,230 ,0.4);
+}
+
+.part4 {
+    position: absolute;
+    top: 4%;
+    left: 9%;
+    width: 0%;
+    right: 10%;
+    bottom: 4%;
+    /*height: 500px;*/
+    background: rgba(238, 233, 233, 0.9);
+    z-index: 210;
+}
+.bookSummary{
+    background: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 12%;
+    margin-top: 2px;
+}
+.bookList{
+     overflow-y: auto;
+     overflow-x: hidden;
+     height: 92%;
+ }
+.bookSummary:hover{
+    cursor: pointer;
+    background-color:rgba(92, 184, 92, 0.4);
+}
+.part5 {
+    position: absolute;
+    top: 4%;
+    left: 9%;
+    width: 0%;
+    right: 10%;
+    bottom: 4%;
+    /*height: 500px;*/
+    background: rgba(238, 233, 233, 0.7);
+    z-index: 210;
+}
+.bg-blur {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.noteListCommunity{
+    overflow-y: auto;
+    /*position: absolute;*/
+    /*top: 55px;*/
+    /*bottom: 65px;*/
+    /*width: 100%;*/
+    right: 3px;
+    overflow-x: hidden;
+    height: 600px;
+}
+.noteListTop{
+    overflow-y: auto;
+    right: 10px;
+    /*position: absolute;*/
+    /*top: 55px;*/
+    /*bottom: 65px;*/
+    /*width: 100%;*/
+    overflow-x: hidden;
+    height: 600px;
+}
+.noteCommunity{
+    background: rgba(238, 233, 233, 0.7);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 2px;
+}
+.noteTop{
+    background: rgba(238, 233, 233, 0.7);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 2px;
+
+}
+.noteCommunity p{
+    margin-bottom: 0px;
+}
+
+.titleCommunity{
+    font-size: 15px;
+    color: #3c763d;
+}
+.writerCommunity{
+    font-size: 13px;
+    color: #3c763d;
+}
+.timeCommunity{
+    font-size: 10px;
+    color: #3c763d;
+}
+.scoreCommunity{
+    font-size: 12px;
+    color: red;
+}
+.contentCommunity{
+    font-size: 13px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    word-wrap:break-word
+}
+.titleTop{
+    font-size: 15px;
+    color: #3c763d;
+}
+.writerTop{
+    font-size: 13px;
+    color: #3c763d;
+}
+.timeTop{
+    font-size: 10px;
+    color: #3c763d;
+}
+.scoreTop{
+    font-size: 12px;
+    color: red;
+}
+.contentTop{
+    font-size: 13px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    word-wrap:break-word
+}
+
+.max_line{
+    max-height:76px;
+}
+
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-track{background-color:#bee1eb;}
+::-webkit-scrollbar-thumb{background-color:darkgrey;}
+::-webkit-scrollbar-thumb:hover {background-color:#9c3}
+::-webkit-scrollbar-thumb:active {background-color:chartreuse}
+
+.contentSummary p{
+    margin-bottom: 0px;
+}
+.text-area{
+    max-height:580px;
+    opacity: 0.9;
+    height: 580px;
+    overflow-y: auto;
+}

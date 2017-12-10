@@ -1,0 +1,57 @@
+
+.banner-holder {
+    background: #222;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-image-holder img {
+    width: 114%;
+    background-size: cover;
+    margin-top: -10%;
+    bottom: 0;
+    filter: brightness(60%);
+}
+
+.banner-desc {
+    position: absolute;
+    top: 14%;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background: rgba(238, 233, 233, 0.4);
+}
+
+.banner-desc h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+}
+
+.banner-desc a {
+    display: inline-block;
+}
+
+.fh5co-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(	173 ,216 ,230 ,0.4);
+}
+.regBt{
+    margin-top: 44px;
+    font-size: small;
+}
+.regBt:hover{
+    cursor: pointer;
+}
+.loginBt{
+    margin-top: 44px;
+    font-size: small;
+}
+.loginBt:hover{
+    cursor: pointer;
+}
+
